@@ -1,0 +1,22 @@
+{
+    "name": "jobilla/monolog-json-logging",
+    "description": "Configure and setup JSON formatting for monolog",
+    "type": "library",
+    "require": {
+        "php": "^7.4|^8.0",
+        "monolog/monolog": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Bowers",
+            "email": "alex.bowers@jobilla.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jobilla\\CloudNative\\Monolog\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
